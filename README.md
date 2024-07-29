@@ -1,5 +1,12 @@
 # vue-transition
 
+
+https://vuejs.org/guide/built-ins/transition#transition-between-components
+
+https://vueschool.io/lessons/route-transitions?friend=vuerouter
+
+https://router.vuejs.org/guide/advanced/transitions.html#per-route-transition
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup

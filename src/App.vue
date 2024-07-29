@@ -22,10 +22,15 @@ import HelloWorld from './components/HelloWorld.vue'
       <component :is="Component" :key="$route.fullPath" />
     </Transition> 
   </RouterView>
-  
+
 </template>
 
 <style scoped>
+
+/* https://router.vuejs.org/guide/advanced/transitions.html#per-route-transition */
+/* https://vueschool.io/lessons/route-transitions?friend=vuerouter */
+/* https://vuejs.org/guide/built-ins/transition#transition-between-components */
+
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.3s;
